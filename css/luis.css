@@ -1,0 +1,72 @@
+*{margin: 0; padding: 0;
+box-sizing: border-box;}
+
+body{ font-family:serif; }
+.cont-seccion1{padding: 60px  0;
+	width: 90%; max-width: 1000px;
+	margin: auto; overflow: hidden;
+}
+.cont-sobre-alonso{
+	padding: 60px 0 ;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.titulo{
+	font-size: 30px;
+	color: #07a314;
+	text-align: center;
+	margin-bottom: 60px;
+} 
+header{
+	width: 100%;
+	height: 800px;
+	background: #1D976C;  
+background: -webkit-linear-gradient(to right, #93F9B900, #1D976C00),url(../img/luisfondo.jpg); 
+background: linear-gradient(to right, #93F9B900, #1D976C00),url(../img/luisfondo.jpg);
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+
+}
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+nav a {
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 10px;
+}
+ nav a:hover{
+text-decoration:underline;
+
+ }
+ .ola{
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+ 
+ }
+
+ .text-cabeza h1{
+ 	font-size: 35px;
+ 	font-weight: 300;
+ }
+ 
+ .E-text p{
+
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	font-size: 20px;
+ }
+.image5{
+
+	width: 50%; height: 100%;
+
+margin-right: auto;
+margin-left: auto;
+}
